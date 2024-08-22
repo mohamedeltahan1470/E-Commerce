@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>E-Commerce WebSite</title>
+</head>
+<body>
+
+        <div class="container">
+            <div class="content">
+                <a href="index.html" class="brand">shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="./login.html">Sign In</a></li>
+                        <li><a href="./signup.html">Sign Up</a></li>
+                    </ul> 
+
+                   
+                    <ul id="user_info">
+                        <li><a href="#" id="user"></a></li>
+                        <li class="shopping_cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge">1</span>
+                            <div class="carts_products">
+                                 <a href="./CartProduct.html">View All products</a>
+                                 <div></div>
+                            </div>
+                        </li>
+                        <li><a href="login.html" id="logout">Log Out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container" >
+            <div class="products" style="margin:auto" id="produ">
+                <div class="product_item">
+                    <img class="product_item_img" src="images/car1.jfif" alt="">
+                    <div class="product_item_desc">
+                        <h2>car 19</h2>
+                        <p>the new car in 19 300km in hour</p>
+                        <span>color : black</span>
+                    </div>
+                    <div class="product_item_action">
+                        <button class="add_to_cart" >Add To Cart</button>
+                        <i class="far fa-heart fav licolor"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+</body>
+</html>
